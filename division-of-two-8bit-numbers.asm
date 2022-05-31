@@ -1,7 +1,7 @@
 
 ;Division of two 8 bit numbers
 
-MVI A, 08H
+MVI A, 09H
 MVI B, 02H
 MVI C, 00H
 CMP B

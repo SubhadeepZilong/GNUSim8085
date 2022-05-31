@@ -2,9 +2,9 @@
 
 ;Determine odd or even number
 
-MVI A, 82H
+MVI A, 81H
 ANI 01H
-J2 200D
+JZ 200DH
 MVI A, 11H
 STA 2050H
 RST 1

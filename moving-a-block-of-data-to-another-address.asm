@@ -2,10 +2,10 @@
 ;Moving a block of data to another address
 
 MVI D, 05H
-LXI H, 2050H
-LXI B, 2070H
+LXI H, 2000H
+LXI B, 2050H
 MOV A, M
-STA X, B
+STAX B
 INX H
 INX B
 DCR D
